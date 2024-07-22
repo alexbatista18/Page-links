@@ -1,0 +1,30 @@
+* {
+  margin: 0; /* Tira todas margens por padrão da página*/
+  padding: 0; /* Tira todos os preenchimentos das margens por padrão da página*/
+  box-sizing: border-box;
+}
+
+body {
+  /*A forma extendida:*/
+  min-height: 100vh; /* Garante que o body tenha pelo menos a altura da viewport */
+  background-image: url("Assets/fundo_4.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  /*Essa é a forma enxuta
+  backgro
+  und: url("imagem,jpg") no-repeat top center/cover;*/
+}
+#caixa_geral {
+  width: 400px;
+  height: 800px;
+  margin: auto;
+  border: 1px solid red;
+}
+#perfil {
+  text-align: center;
+  padding: 50px;
+}
+#perfil img {
+  width: 250px;
+}
