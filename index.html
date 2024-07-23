@@ -1,7 +1,7 @@
 <!--Criando o documento html-->
 <!DOCTYPE html>
 <!--Linguagem do site-->
-<html lang="pt-br">
+<html lang="pt-br" class="dark">
   <!--Um filho em que temos configurações da página não visiveis-->
   <head>
     <!--Para aceitar caracteres especiais '~' 'ç'-->
@@ -17,6 +17,9 @@
     <div id="caixa_geral" d>
       <div id="perfil">
         <img src="Assets/img_perfil.png" alt="img" />
+      </div>
+      <div id="buttom_bg">
+        <div id="int_buttom" onclick="toggleMode()"></div>
       </div>
       <ul>
         <li>
@@ -44,11 +47,7 @@
           <a href="https://wa.me/69993697356" target="_blank">Fale comigo</a>
         </li>
       </ul>
-      <div id="social_icons">
-        <ion-icon name="logo-github"></ion-icon>
-        <ion-icon name="logo-instagram"></ion-icon>
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

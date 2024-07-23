@@ -3,14 +3,25 @@
   padding: 0; /* Tira todos os preenchimentos das margens por padrão da página*/
   box-sizing: border-box;
 }
+:root {
+  --text-color: black;
+  --bg-url: url("Assets/fundo_4.jpg");
+  --stroke-color: rgba(255, 255, 255, 0.5);
+}
+
+.dark {
+  --text-color: white;
+  --bg-url: url("Assets/dark.png");
+  --stroke-color: rgba(0, 0, 0, 0.5);
+}
 body * {
   font-family: "Inter", sans-serif;
-  color: rgb(0, 0, 0);
+  color: var(--text-color);
 }
 body {
   /*A forma extendida:*/
   min-height: 100vh; /* Garante que o body tenha pelo menos a altura da viewport */
-  background-image: url("Assets/fundo_4.jpg");
+  background-image: var(--bg-url);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -25,16 +36,39 @@ body {
 }
 #perfil {
   text-align: center;
-  padding: 50px;
+  padding: 24px;
 }
 #perfil img {
   width: 250px;
+}
+
+#buttom_bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 20px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--stroke-color);
+  border-radius: 150px;
+  position: relative;
+}
+#int_buttom {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: scale(0.9);
+  position: relative;
+  left: -29%;
 }
 ul {
   display: flex;
   flex-direction: column;
   gap: 24px;
   list-style: none;
+  padding: 24px;
 }
 ul li a {
   display: flex;
