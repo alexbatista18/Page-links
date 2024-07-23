@@ -7,12 +7,16 @@
   --text-color: black;
   --bg-url: url("Assets/fundo_4.jpg");
   --stroke-color: rgba(255, 255, 255, 0.5);
+  --buttom: white;
+  --percent: -29%;
 }
 
 .dark {
   --text-color: white;
   --bg-url: url("Assets/dark.png");
   --stroke-color: rgba(0, 0, 0, 0.5);
+  --buttom: black;
+  --percent: 30%;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -25,6 +29,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  transition: background-image 0.2s ease-in-out;
   /*Essa é a forma enxuta
   backgro
   und: url("imagem,jpg") no-repeat top center/cover;*/
@@ -55,13 +60,14 @@ body {
   position: relative;
 }
 #int_buttom {
-  background-color: black;
+  background-color: var(--buttom);
   width: 20px;
   height: 20px;
   border-radius: 50%;
   transform: scale(0.9);
   position: relative;
-  left: -29%;
+  left: var(--percent);
+  transition: left 0.2s ease-in-out;
 }
 ul {
   display: flex;
@@ -80,4 +86,13 @@ ul li a {
   border-radius: 8px;
   text-decoration: none;
   font-weight: 500;
+  transition: 0.2s;
+}
+ul li a:hover{
+  background: rgba(51, 51, 51, 0.308);
+  border: 1px solid rgba(0, 0, 0, 0.63);
+}
+footer{
+  padding: 24px 0px;
+  text-align: center;
 }
