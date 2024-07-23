@@ -3,7 +3,10 @@
   padding: 0; /* Tira todos os preenchimentos das margens por padrão da página*/
   box-sizing: border-box;
 }
-
+body * {
+  font-family: "Inter", sans-serif;
+  color: rgb(0, 0, 0);
+}
 body {
   /*A forma extendida:*/
   min-height: 100vh; /* Garante que o body tenha pelo menos a altura da viewport */
@@ -19,7 +22,6 @@ body {
   width: 400px;
   height: 800px;
   margin: auto;
-  border: 1px solid red;
 }
 #perfil {
   text-align: center;
@@ -27,4 +29,21 @@ body {
 }
 #perfil img {
   width: 250px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style: none;
+}
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
 }
