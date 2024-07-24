@@ -21,4 +21,4 @@ Este projeto é uma simples página de links desenvolvida utilizando HTML, CSS e
 
 ## Demonstração
 
-Você pode visualizar a página de links em funcionamento [aqui](https://alexbatista18.github.io/Page-links/).
+Você pode visualizar a página de links em funcionamento [aqui](https://alexbatista18.github.io/Page-links/) e o certificado de conclusão [aqui](https://drive.google.com/file/d/19euHuj6PtT6OhyQNFn06YKz2DvGR4i2Z/view?usp=sharing).
