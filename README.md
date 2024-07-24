@@ -1,6 +1,6 @@
 # Página de Links
 
-![Preview](https://alexbatista18.github.io/Page-links/)
+Projeot desenvolvido no curso [Discover](https://app.rocketseat.com.br/journey/discover/contents).
 
 ## Descrição
 
@@ -21,4 +21,4 @@ Este projeto é uma simples página de links desenvolvida utilizando HTML, CSS e
 
 ## Demonstração
 
-Você pode visualizar a página de links em funcionamento [aqui](link-para-página-hospedada).
+Você pode visualizar a página de links em funcionamento [aqui](https://alexbatista18.github.io/Page-links/).
