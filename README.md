@@ -1,6 +1,6 @@
 # Página de Links
 
-Projeot desenvolvido no curso [Discover](https://app.rocketseat.com.br/journey/discover/contents).
+Projeto desenvolvido no curso [Discover](https://app.rocketseat.com.br/journey/discover/contents).
 
 ## Descrição
 
