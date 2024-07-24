@@ -18,6 +18,15 @@
   --buttom: black;
   --percent: 30%;
 }
+#caixa_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  padding: 16px 10px;
+  font-size: 30px;
+}
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
@@ -88,11 +97,11 @@ ul li a {
   font-weight: 500;
   transition: 0.2s;
 }
-ul li a:hover{
+ul li a:hover {
   background: rgba(51, 51, 51, 0.308);
   border: 1px solid rgba(0, 0, 0, 0.63);
 }
-footer{
+footer {
   padding: 24px 0px;
   text-align: center;
 }
